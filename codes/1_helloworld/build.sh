@@ -1,1 +1,1 @@
-g++ -Wall -Werror -std=c++17 hello_world.cpp -o hello_world
+g++ -Wall -Werror -std=c++17 hello_world_soln.cpp -o hello_world
