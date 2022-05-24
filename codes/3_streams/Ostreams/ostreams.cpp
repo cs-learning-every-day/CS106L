@@ -10,7 +10,9 @@ using std::endl;
 using std::string;
 
 //function to write num to any ostream
-
+void writeToStream(std::ostream &out_stream, int num) {
+    out_stream << "The number is: " << num << endl;
+}
 
 int main() {
     // Write an int to the user's console.
@@ -24,7 +26,8 @@ int main() {
     
 
     // Write method to take any ostream
-    
+    writeToStream(cout, 666);
+    writeToStream(out_stream, 666);
    
     return 0;
 }

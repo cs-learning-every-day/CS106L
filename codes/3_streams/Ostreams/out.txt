@@ -1,1 +1,2 @@
 The answer is: 42
+The number is: 666

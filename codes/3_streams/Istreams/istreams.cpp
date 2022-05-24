@@ -9,18 +9,23 @@ using std::string; using std::cin;
 //read numbers from a file
 void readNumbers() {
     // Create our ifstream and make it open the file
-    
+    std::ifstream in("res/numbers.txt");
 
     // Something to store values we get from the stream
-
-        // Extract next number from input
+    int x;
+    while (true) {
         
+        // Extract next number from input
+        in >> x;
 
         // If input is in a fail state, either a value couldn't
         // be converted, or we are at the end of the file.
+        if (in.fail())
+            break;
 
         //print whatever we read
-        
+        cout << x << endl;
+    }
 }
 
 //read a single word at a time from a file

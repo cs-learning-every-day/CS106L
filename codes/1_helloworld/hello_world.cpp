@@ -4,6 +4,7 @@
 #include <iostream>
 
 void hello_cpp() {
+    std::cout << "Hello, World" << std::endl;
 }
 
 // =========================  C Way  ==============================

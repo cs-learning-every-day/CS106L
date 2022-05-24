@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.js": "javascript",
+        "*.jsx": "javascriptreact",
+        "*.wxss": "css",
+        "*.wxml": "html",
+        "iosfwd": "cpp",
+        "fstream": "cpp"
+    }
+}
