@@ -6,5 +6,5 @@
 - [vcpkg国内镜象](https://zhuanlan.zhihu.com/p/383683670)
 
 #### TODO
-- [ ] Assignment 1: WikiRacer
+- [X] Assignment 1: WikiRacer
 - [ ] Assignment 2: STL HashMap
