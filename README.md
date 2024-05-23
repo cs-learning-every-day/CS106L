@@ -7,4 +7,4 @@
 
 #### TODO
 - [X] Assignment 1: WikiRacer
-- [ ] Assignment 2: STL HashMap
+- [X] Assignment 2: STL HashMap
